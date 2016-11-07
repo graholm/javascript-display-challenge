@@ -1,6 +1,7 @@
 function logArgs(args) {
   var args = 1
   console.log(args)
+  consoleLogExampleargs.toString()
 }
 
 
