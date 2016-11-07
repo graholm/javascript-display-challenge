@@ -29,10 +29,3 @@ var consoleLogExample = $("#function-example")
 var formattedExample = $("<pre>")
 formattedExample.text(functionString)
 consoleLogExample.html(formattedExample)
-
-
-var functionString = logArgs.toString()
-var consoleLogExample = $("#console-log-example")
-var formattedExample = $("<pre>")
-formattedExample.text(functionString)
-consoleLogExample.html(formattedExample)
