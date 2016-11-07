@@ -14,8 +14,12 @@ var consolelogString = console.toString()
 
 var consoleLogExample = $("#functionexample")
 var formattedExample = $("<pre>")
+var consolelogexample
+
+
+console-log-example
 
 formattedExample.text(functionString)
 
-formattedExample.text(consolelogString)
+console-log-example.text(consolelogString)
 consoleLogExample.html(formattedExample)
