@@ -5,6 +5,7 @@ function logArgs(args) {
 
 logArgs.toString()
 
+"console-log-example"
 
 var functionString = "how do I get the function as a string?"
 
