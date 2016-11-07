@@ -4,32 +4,11 @@ function logArgs(args) {
 }
 
 var functionString = logArgs.toString()
-
 var consoleLogExample = $("#console-log-example")
-
 var formattedExample = $("<pre>")
-
 formattedExample.text(functionString)
-
 consoleLogExample.html(formattedExample)
 
 
-function loggingconsoles {
-  console.log( "whats up!!??!!");
-}
-
-
-
-
-
-
-
-
-
-var consoleLogExample = $("#function-example")
-
-var formattedExample = $("<pre>")
-
 formattedExample.text(functionString)
-
 consoleLogExample.html(formattedExample)
