@@ -3,14 +3,10 @@ function logArgs(args) {
   console.log(args)
 }
 
-logArgs.toString()
-
-"console-log-example"
+var functionString = logArgs.toString()
 
 
-var functionString = "how do I get the function as a string?"
-
-var consoleLogExample = $("how do I get the element where I want to put the example?")
+var consoleLogExample = $()
 
 var formattedExample = $("<pre>")
 
