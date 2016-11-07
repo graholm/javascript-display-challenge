@@ -3,6 +3,8 @@ function logArgs(args) {
   console.log(args)
 }
 
+console.l
+
 var functionString = logArgs.toString()
 
 
