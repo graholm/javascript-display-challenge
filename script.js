@@ -1,11 +1,8 @@
 function logArgs(args) {
   var args = 1
   console.log(args)
-  consoleLogExampleargs.toString()
+  logArgs.toString()
 }
-
-
-
 
 var functionString = "how do I get the function as a string?"
 
