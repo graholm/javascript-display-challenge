@@ -10,12 +10,13 @@ console.log (i_am_also_going_to_log_this_in_my_console)
 }
 
 var functionString = logArgs.toString()
-var functionString = console.toString()
+var consolelogString = console.toString()
 
 var consoleLogExample = $("#console-log-example")
+
 
 var formattedExample = $("<pre>")
 
 formattedExample.text(functionString)
-
+formattedExample.text(consolelogString)
 consoleLogExample.html(formattedExample)
