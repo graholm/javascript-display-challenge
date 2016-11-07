@@ -13,14 +13,18 @@ formattedExample.text(functionString)
 
 consoleLogExample.html(formattedExample)
 
-//function with argument
-function perimeter(length, width) {
-  console.log(length + length + width + width);
-};
 
-"\perimeter(3,5)"
+function loggingconsoles {
+  console.log( "whats up!!??!!");
+}
 
-var functionString = perimeter.toString()
+
+
+
+
+
+
+
 
 var consoleLogExample = $("#function-example")
 
