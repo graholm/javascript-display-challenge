@@ -13,8 +13,6 @@ var functionString = logArgs.toString()
 var consolelogString = console.toString()
 
 var consoleLogExample = $("#functionexample")
-
-
 var formattedExample = $("<pre>")
 
 formattedExample.text(functionString)
