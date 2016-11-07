@@ -3,7 +3,9 @@ function logArgs(args) {
   console.log(args)
 }
 
-console.l
+var iwanttologthis = 20
+console.log ("this is what i am console logging")
+console.log (iwanttologthis)
 
 var functionString = logArgs.toString()
 
