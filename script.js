@@ -32,7 +32,7 @@ functionExample.html(formattedExample)
 
 //function takes in function
 
-input.keydown(function(e) {	
+$().keydown(function(e) {	
   if (e.keyCode == "13") {
 console.log("hello")
   }
