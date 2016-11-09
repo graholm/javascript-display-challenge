@@ -40,7 +40,7 @@ function get() {
 keydown(function(e) {
 
 }
-//get is a function
+//we don't know when the user is going to press enter but when they do, get this function
 
 //jquery
 var button = $("#button").click(function() {
