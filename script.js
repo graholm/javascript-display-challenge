@@ -31,7 +31,7 @@ formattedExample.text(functionString)
 functionExample.html(formattedExample)
 
 //function takes in function
-
+firebase.get("variable", function(result) {}
 
 
 //jquery
