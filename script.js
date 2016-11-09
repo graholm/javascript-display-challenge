@@ -31,14 +31,14 @@ formattedExample.text(functionString)
 functionExample.html(formattedExample)
 
 //function takes in function
-function get("variable", function(result) {
-  
-}
-
 function get() {
   setTimeout(function() {
     callback(1)
-}, 1000)
+  }, 1000)
+}
+
+keydown(function(e) {
+
 }
 //get is a function
 
