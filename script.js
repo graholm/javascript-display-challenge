@@ -1,5 +1,4 @@
-conso
-
+//console.log
 function logArgs(args) {
   var args = 1
   console.log(args)
@@ -11,6 +10,7 @@ var formattedExample = $("<pre>")
 formattedExample.text(functionString)
 consoleLogExample.html(formattedExample)
 
+//function
 function myfunction(a, b) {
   return a * b;
 }
@@ -36,9 +36,8 @@ function whatsup(args) {
   console.log(args)
 };
 
-
 var functionString = whatsup.toString()
-var consoleLogExample = $("#function-example")
+var consoleLogExample = $("#notfunction-example")
 var formattedExample = $("<pre>")
 formattedExample.text(functionString)
 consoleLogExample.html(formattedExample)
